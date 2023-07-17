@@ -23,7 +23,7 @@ header{
     background:#fff;
 }
 header a{
-    /* color: #F6F4F3; */
+    color: hsl(236, 13%, 42%);
 }
 header .logo{
     display: flex;
@@ -105,7 +105,7 @@ header .logo{
     font-weight: 600;
 }
 .bouton{
-    background: #000;
+    background: hsl(5, 85%, 63%);
     color: #fff;
     padding: 10px 20px;
 }
@@ -117,7 +117,7 @@ header .logo{
 .right{
     width: 28%;
     padding-top: 10px ;
-    background: #000;
+    background:  hsl(240, 100%, 5%);
     color: #fff;
     padding-bottom:-50px ;
 }
@@ -160,6 +160,10 @@ header .logo{
     width: 50%;
     margin: 20px 0;
 }
+.container-item-2-right .container-item-2-1{
+    /* width: 50%; */
+    margin: 20px 0;
+}
 .container-item-2-right{
     width: 28%;
     padding: 0 10px;
@@ -179,6 +183,10 @@ header .logo{
 .item-img img{
     width: 100px;
     height: 100%;
+}
+.item-text h1{
+    color: hsl(233, 8%, 79%);
+    font-size: 40px;
 }
 .item-text span{
     font-size: 15px;
@@ -233,6 +241,10 @@ header .logo{
         margin: 20px 0;
     }
     .menu-open{
+        top: 15px;
+        right: 40px;
+    }
+    .menu-close{
         top: 15px;
         right: 40px;
     }
