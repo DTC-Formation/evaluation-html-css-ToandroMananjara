@@ -4,7 +4,7 @@ body{
 }
 @font-face {
     font-family: astonpoliz;
-    src: url(../fonts/static/Inter-Regular.ttf),url(../fonts/Astonpoliz/Astonpoliz.ttf);
+    src: url(../fonts/static/Inter-Regular.ttf);
 }
 *{
     list-style: none;
@@ -155,7 +155,9 @@ header .logo{
     /* height: 500px; */
 }
 .item-right-2{
-    margin: 50px 0; 
+    margin-top: 10px;
+    padding-top:7px ; 
+    padding-bottom:30px ;
 }
 
 .item-right span{
