@@ -151,14 +151,6 @@ header .logo{
     color: #fff;
     padding-bottom:-50px ;
 }
-.container-right-1{
-    /* height: 500px; */
-}
-.item-right-2{
-    margin-top: 10px;
-    padding-top:7px ; 
-    padding-bottom:30px ;
-}
 
 .item-right span{
     font-size: 15px;
@@ -170,6 +162,9 @@ header .logo{
 .item-right-2{
     border-top: solid 1px #fff;
     border-bottom: solid 1px #fff;
+    margin-top: 10px;
+ 
+    padding:20px 0 ;
 }
 .container-item-2{
     display: flex;
