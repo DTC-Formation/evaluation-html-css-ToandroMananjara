@@ -2,6 +2,10 @@ body{
     margin: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: astonpoliz;
+    src: url(../fonts/static/Inter-Regular.ttf),url(../fonts/Astonpoliz/Astonpoliz.ttf);
+}
 *{
     list-style: none;
     text-decoration: none;
@@ -32,12 +36,36 @@ header .logo{
     font-size: 40px;
     font-weight: 600;
 }
+
+.link-toggle{
+    display: none;
+    justify-content: center;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    background: hsl(36, 100%, 99%);
+}
+.link-toggle ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    text-align: center;
+}
+.link-toggle ul li a{
+    padding: 10px;
+} 
 .menu-open{
     position: absolute;
     top: -100px;
     cursor: pointer;
 }
+.menu-toogle{
+    display: flex;
+}
 .menu-close{
+    z-index: 2;
+    
     position: absolute;
     top: -100px;
     cursor: pointer;
@@ -94,11 +122,13 @@ header .logo{
 }
 .container-left-2{
     display: flex;
+   
 }
 .container-left-2-left,.container-left-2-right{
     width: 50%;
-    
-    
+}
+.container-left-2-left{
+    margin-right: 25px;
 }
 .container-left-2-left span{
     font-size: 50px;
