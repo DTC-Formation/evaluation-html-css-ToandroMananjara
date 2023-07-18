@@ -6,6 +6,14 @@ body{
     font-family: astonpoliz;
     src: url(../fonts/static/Inter-Regular.ttf);
 }
+@font-face {
+    font-family: extrabold;
+    src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+@font-face {
+    font-family: old;
+    src: url(../fonts/static/Inter-ExtraBold.ttf);
+}
 *{
     list-style: none;
     text-decoration: none;
@@ -36,7 +44,11 @@ header .logo{
     font-size: 40px;
     font-weight: 600;
 }
-
+.logo span{
+    font-family: old;
+    font-weight: 800;
+    font-size: 40px;
+}
 .link-toggle{
     display: none;
     justify-content: center;
@@ -52,9 +64,15 @@ header .logo{
     margin: 15px;
     text-align: center;
 }
+.img-2{
+    display: none;
+}
 .link-toggle ul li a{
     padding: 10px;
 } 
+a:focus{
+    color:hsl(5, 85%, 63%);
+}
 .menu-open{
     position: absolute;
     top: -100px;
@@ -138,6 +156,11 @@ header .logo{
     background: hsl(5, 85%, 63%);
     color: #fff;
     padding: 10px 20px;
+    cursor: pointer;
+}
+.bouton:hover{
+    background:  hsl(240, 100%, 5%);
+    color: hsl(5, 85%, 63%);
 }
 .container-left-2-right p{
     font-size: 15px;
@@ -221,6 +244,17 @@ header .logo{
 }
 
 @media only screen and (max-width:375px){
+    .img-1{
+        display: none;
+    }
+    .img-2{
+        display: block;
+        width: 100%;
+    }
+    .img-2 img{
+        
+        width: 100%;
+    }
     .navbar .link{
         display: none;
     }
