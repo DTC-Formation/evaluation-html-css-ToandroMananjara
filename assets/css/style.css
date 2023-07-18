@@ -64,7 +64,7 @@ header .logo{
     top: 0px;
     right: 0; 
     background: hsl(36, 100%, 99%);
-    color: hsl(240, 100%, 5%)!important;
+    
 }
 .link-toggle ul{
     text-align: center;
@@ -86,6 +86,7 @@ header .logo{
 }
 .link-toggle ul li a{
     padding: 10px;
+    color: hsl(240, 100%, 5%)!important;
 } 
 a:focus{
     color:hsl(5, 85%, 63%);
