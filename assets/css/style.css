@@ -50,18 +50,25 @@ header .logo{
     font-size: 40px;
 }
 .link-toggle{
+    width: 80%;
     display: none;
     justify-content: center;
     position: absolute;
-    top: 20px;
-    right: 0;
+    top: 0px;
+    right: 0; 
     background: hsl(36, 100%, 99%);
 }
+.link-toggle ul{
+    text-align: center;
+    padding: 0;
+}
+
 .link-toggle ul li{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 15px;
+    margin: 15px 0;
+    /* margin-right: 20px; */
     text-align: center;
 }
 .img-2{
