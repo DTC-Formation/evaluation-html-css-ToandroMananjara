@@ -108,8 +108,7 @@ a:focus{
     margin: auto;
     padding-right: 20px;
 }
-.navbar .link span{
-    margin-left: 30px;
+.navbar .link span{ 
     position: relative;
 }
 .navbar .link a{
@@ -253,6 +252,13 @@ a:focus{
 }
 
 @media only screen and (max-width:375px){
+    .container{
+        width: 100%;
+        padding:0;
+    }
+    header .logo{
+        margin-left: 10px;
+    }
     .img-1{
         display: none;
     }
@@ -294,8 +300,6 @@ a:focus{
         display: flex;
         flex-direction: column;
         width: 100%;
-        /* justify-content: space-between;  */
-        /* padding: 0 40px; */
     }
     .container-item-2-left{
         width: 100%;
@@ -312,10 +316,10 @@ a:focus{
     }
     .menu-open{
         top: 15px;
-        right: 40px;
+        right: 15px;
     }
     .menu-close{
         top: 15px;
-        right: 40px;
+        right: 15px;
     }
 }
